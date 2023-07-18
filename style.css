@@ -1,125 +1,122 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap");
 
 body {
-    background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
 }
 
 @media (max-width: 900px) {
-    body {
-        background: linear-gradient(to bottom, #ec008a, #7e97e9);
-    }
+  body {
+    background: linear-gradient(to bottom, #ec008a, #7e97e9);
+  }
 }
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 nav {
-    font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 nav ul {
-    display: flex;
-    list-style-type: none;
-    height: 74px;
-    background-color: black;
-    color: white;
+  display: flex;
+  list-style-type: none;
+  height: 74px;
+  background-color: black;
+  color: white;
 }
 
 nav ul li {
-    color: white;
-    padding: 27px 18px;
+  color: white;
+  padding: 27px 18px;
 }
 
 .brand img {
-    width: 30px;
-    padding: 0 8px;
-    margin: -4px;
+  width: 30px;
+  padding: 0 8px;
+  margin: -4px;
 }
 
 .brand {
-    display: flex;
-    align-items: center;
-    font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
 }
 
 .container {
-    min-height: 65vh;
-    background-color: black;
-    color: white;
-    font-family: 'Varela Round', sans-serif;
-    display: flex;
-    margin: 14px auto;
-    width: 69%;
-    border-radius: 12px;
-    padding: 26px;
-    background-image: url('images/4.jpg');
-    /*For background images*/
+  min-height: 71vh;
+  background-color: black;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  display: flex;
+  margin: 14px auto;
+  width: 69%;
+  border-radius: 12px;
+  padding: 26px;
+  /*For background images*/
+  background-image: url("images/4.jpg");
 }
 
 .bottom {
-    position: sticky;
-    background-color: black;
-    color: white;
-    height: 79px;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
+  position: sticky;
+  background-color: black;
+  color: white;
+  height: 79px;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #progresBar {
-    width: 70vw;
+  width: 70vw;
 }
 
 .icon {
-    margin: 7px;
+  margin: 7px;
 }
 
 .icon i {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .songItem {
-    height: 40px;
-    display: flex;
-    background-color: white;
-    color: black;
-    /* width: 82%; */
-    border-radius: 43px;
-    margin: 12px 2px;
-    justify-content: space-between;
-    align-items: center;
+  height: 40px;
+  display: flex;
+  background-color: white;
+  color: black;
+  /* width: 82%; */
+  border-radius: 43px;
+  margin: 12px 2px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .songItem img {
-    width: 35px;
-    margin: 0px 11px;
-    border-radius: 38px;
+  width: 35px;
+  margin: 0px 11px;
+  border-radius: 38px;
 }
 
 .songListPlay {
-    margin: 0 23px;
-    cursor: pointer;
+  margin: 0 23px;
+  cursor: pointer;
 }
 
 .songItemContainer {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .songInfo {
-    position: absolute;
-    left: 15vw;
-    margin-top: 22px;
+  position: absolute;
+  left: 15vw;
+  margin-top: 22px;
 }
 
 .songInfo img {
-    opacity: 0;
-    transition: opacity 0.4s ease-in;
-
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
 }
